@@ -1,7 +1,7 @@
 public class FibonacciNumbers {
 
     public static void main(String[] args){
-        System.out.println(Long.MAX_VALUE);
+
         long x = 1L;
         long y = 0L;
 
@@ -17,7 +17,7 @@ public class FibonacciNumbers {
             y = z;
             System.out.println(z);
 
-        } while(z<(2L<<61));
+        } while(z<(1L<<62));
     }
     public static void random_new_method(){
         System.out.println("Congratulations, you have broken out of the matrix");
